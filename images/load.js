@@ -1,4 +1,4 @@
-﻿$(document).ready(function(){
+$(document).ready(function(){
 	$("#neirong").find(".Tab_nr").each(function(){
 		$(this)	.find('.scroll-pane').jScrollPane({showArrows:true,scrollbarWidth:27,animateTo:true,animateInterval:0,animateStep:5});
 	})

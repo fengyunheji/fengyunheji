@@ -14,32 +14,32 @@ _sdgCopyrightHtml +=''
 
 +'<div class="SDGCOPYRIGHT-wrap20130425">' 
 +'	<div id="SDGCOPYRIGHT">'
-//Ê¢´óÓÎÏ·LOGOºÍºÏ×÷Ã½ÌåLOGO
+//ç››å¤§æ¸¸æˆLOGOå’Œåˆä½œåª’ä½“LOGO
 +'		<div class="SDGCOPYRIGHT-logo" style="width:200px;">'
-+'			<a href="#" target="_blank" title="¹ÙÍø" ><img src="images/bomlogo.png"></a>'
++'			<a href="#" target="_blank" title="å®˜ç½‘" ><img src="images/bomlogo.png"></a>'
 +'		</div>'
 
 
-//°æÈ¨Ö÷ÌåÐÅÏ¢
+//ç‰ˆæƒä¸»ä½“ä¿¡æ¯
 +'		<div class="SDGCOPYRIGHT-con">'
 
 
-//Ã¿¸öÏîÄ¿×é×Ô¼ºµÄ°æÈ¨ºÅ
+//æ¯ä¸ªé¡¹ç›®ç»„è‡ªå·±çš„ç‰ˆæƒå·
 +'			<p>'
-+'				<span class="SDGCOPYRIGHT-pr3">µÖÖÆ²»Á¼ÓÎÏ· ¾Ü¾øµÁ°æÓÎÏ· ×¢Òâ×ÔÎÒ±£»¤ ½÷·ÀÊÜÆ­ÉÏµ± ÊÊ¶ÈÓÎÏ·ÒæÄÔ ³ÁÃÔÓÎÏ·ÉËÉí ºÏÀí°²ÅÅÊ±¼ä ÏíÊÜ½¡¿µÉú»î</span>'
++'				<span class="SDGCOPYRIGHT-pr3">æŠµåˆ¶ä¸è‰¯æ¸¸æˆ æ‹’ç»ç›—ç‰ˆæ¸¸æˆ æ³¨æ„è‡ªæˆ‘ä¿æŠ¤ è°¨é˜²å—éª—ä¸Šå½“ é€‚åº¦æ¸¸æˆç›Šè„‘ æ²‰è¿·æ¸¸æˆä¼¤èº« åˆç†å®‰æŽ’æ—¶é—´ äº«å—å¥åº·ç”Ÿæ´»</span>'
 +'			</p>'
 
-//¹«Ë¾Í³Ò»µÄ°æÈ¨ºÅ
+//å…¬å¸ç»Ÿä¸€çš„ç‰ˆæƒå·
 +'			<p>'
-+'				<span class="SDGCOPYRIGHT-pr3">±¾ÓÎÏ·ÓÉ ¡¶ºÀÃÅ·çÔÆ¡· ¶À¼ÒÔËÓª All rights reserved. °æÈ¨ËùÓÐ ÖÂÁ¦´òÔìÒ»¸öÈ«Ãñ¼¤ÇéµÄºÃ´«Ææ£¡</span>'
++'				<span class="SDGCOPYRIGHT-pr3">æœ¬æ¸¸æˆç”± ã€Šè±ªé—¨é£Žäº‘ã€‹ ç‹¬å®¶è¿è¥ All rights reserved. ç‰ˆæƒæ‰€æœ‰ è‡´åŠ›æ‰“é€ ä¸€ä¸ªå…¨æ°‘æ¿€æƒ…çš„å¥½ä¼ å¥‡ï¼</span>'
 +'			</p>'
 +'			<p class="SDGCOPYRIGHT-sdlogo">'
-+'				<span class="SDGCOPYRIGHT-pr3">±¾ÍøÕ¾Éè¼Æ¼°ÃÀ¹¤ÓÉ <a href="http://www.zqxtjx.com" target="_blank" title="ºÀÃÅ·çÔÆ" >ºÀÃÅ·çÔÆºÏ»÷</a> ¶À¼ÒÉè¼ÆÖÆ×÷</span>'
++'				<span class="SDGCOPYRIGHT-pr3">æœ¬ç½‘ç«™è®¾è®¡åŠç¾Žå·¥ç”± <a href="http://www.zqxtjx.com" target="_blank" title="è±ªé—¨é£Žäº‘" >è±ªé—¨é£Žäº‘åˆå‡»</a> ç‹¬å®¶è®¾è®¡åˆ¶ä½œ</span>'
 +'			</p>'
 +'		</div>'
-//ÓÒ²àÍøÂç¾¯²ì3¸öÍ¼±ê
+//å³ä¾§ç½‘ç»œè­¦å¯Ÿ3ä¸ªå›¾æ ‡
 +'		<div class="SDGCOPYRIGHT-priv">'
-+'			<a href="#" class="SDGCOPYRIGHT-priv1" target="_blank">ÍøÂç¾¯²ì</a>'
++'			<a href="#" class="SDGCOPYRIGHT-priv1" target="_blank">ç½‘ç»œè­¦å¯Ÿ</a>'
 +'			<span>'
 +'			</span>'
 +'		</div>'

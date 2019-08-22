@@ -1,4 +1,4 @@
-﻿/*! Copyright (c) 2013 Brandon Aaron (/brandonaaron.net)
+/*! Copyright (c) 2013 Brandon Aaron (/brandonaaron.net)
  * Licensed under the MIT License (LICENSE.txt).
  *
  * Thanks to: /adomas.org/javascript-mouse-wheel/ for some pointers.
