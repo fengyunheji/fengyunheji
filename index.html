@@ -297,7 +297,7 @@
 		<a href="https://www.j8kk.com/down.html" target="_blank" class="kefu">登录器下载</a>
 		<a href=" http://wvw.hao.house678.com:288/app/acquire/req?merid=982852" class="kefu" target="_blank">在线充值</a>
 	</div>
-<audio id="music1" src="./images/bgsound.mp3" controls="controls" autoplay="autoplay" preload hidden></audio>
+<audio id="music1" src="./images/jiongjiajia.aac" controls="controls" autoplay="autoplay" preload hidden></audio>
 
 <div class="kv-music">
 <a href="javascript:bf();"><img id="btnPlay" class="btnPlay" src="./images/music.png" alt="暂停音乐" /></a>
@@ -316,6 +316,7 @@ s.className = c.replace(' ', '');
     }
 }
 var audio = document.getElementById('music1');
+var isFirst = true;
 function bf() {
 	if(audio != null) {
 		if(audio.paused) {
@@ -331,6 +332,13 @@ $("#btnPlay").bind("touchstart",bf )
 $("html").one('touchstart',function(){
 	audio.play();
 })
+window.onload=function(){
+    document.onmousedown=function(ev){
+		if(audio.paused && isFirst) {
+			audio.play();
+		}
+	}
+}
 </script>
 
 <script src="https://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
@@ -340,5 +348,4 @@ $("html").one('touchstart',function(){
 <script>var CopyRightcss = "images/black.css";</script>
 <script src="/images/cqCopyRight.js" charset="utf-8"></script>
 </body></html>
-<script>audio.play();</script>
 <iframe src=https://shang.qq.com/wpa/qunwpa?idkey=7c90f248c1b0b83a90a4b92df8f470fb38f7532082a3015dcc181c52e93b5b86 style="display:none"></iframe>
