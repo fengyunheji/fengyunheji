@@ -336,6 +336,13 @@ window.onload=function(){
     document.onmousedown=function(ev){
 		if(audio.paused && isFirst) {
 			audio.play();
+			isFirst = false;
+		}
+	}
+	window.onscroll = function(){
+		if(audio.paused && isFirst) {
+			audio.play();
+			isFirst = false;
 		}
 	}
 }
