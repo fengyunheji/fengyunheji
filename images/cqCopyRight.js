@@ -31,10 +31,10 @@ _sdgCopyrightHtml +=''
 
 //公司统一的版权号
 +'			<p>'
-+'				<span class="SDGCOPYRIGHT-pr3">本游戏由 《豪门风云》 独家运营 All rights reserved. 版权所有 致力打造一个全民激情的好传奇！</span>'
++'				<span class="SDGCOPYRIGHT-pr3">本游戏由 KK工作室 独家运营 All rights reserved. 版权所有 致力打造一个全民激情的好传奇！</span>'
 +'			</p>'
 +'			<p class="SDGCOPYRIGHT-sdlogo">'
-+'				<span class="SDGCOPYRIGHT-pr3">本网站设计及美工由 <a href="http://www.zqxtjx.com" target="_blank" title="豪门风云" >豪门风云合击</a> 独家设计制作</span>'
++'				<span class="SDGCOPYRIGHT-pr3">本网站设计及美工由 <a href="http://j8kk.com" target="_blank" title="KK工作室" >KK风云合击</a> 独家设计制作</span>'
 +'			</p>'
 +'		</div>'
 //右侧网络警察3个图标
