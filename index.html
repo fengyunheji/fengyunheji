@@ -5,6 +5,7 @@
 <title>风云合击</title>
 <link rel="stylesheet" type="text/css" href="./images/style.css">
 <link rel="stylesheet" type="text/css" href="./images/copy.css">
+<script src="http://libs.baidu.com/jquery/1.4.2/jquery.min.js"></script>
 <script language="javascript" type="text/javascript" src="./images/load.js" charset="utf-8"></script>
 <script src="./images/mousewheel.js" charset="utf-8"></script>
 </head>
@@ -36,16 +37,16 @@
 <!---left-->
 <div class="buut_bg">
     
-<a href="http://www.zqxtjx.com/down.html" target="_blank" class="buut_xiz" title="登录"><span class="logo_fb"></span></a>   
+<a href="https://www.j8kk.com/down.html" target="_blank" class="buut_xiz" title="登录"><span class="logo_fb"></span></a>   
 
 <div class="buut_box">
 
- <a class="but_an" href="http://www.zqxtjx.com/down.html" target="_blank">补丁下载</a>
- <a class="but_an" href="http://www.zqxtjx.com/cz.html" target="_blank">元宝充值</a>
- <a class="but_an" href="http://www.zqxtjx.com/down.html" target="_blank">补丁下载</a>
- <a class="but_an" href="http://www.zqxtjx.com/cz.html" target="_blank">元宝充值</a>
- <a class="but_an" href="http://www.zqxtjx.com/down.html" target="_blank">补丁下载</a>
- <a class="but_an" href="http://www.zqxtjx.com/cz.html" target="_blank">元宝充值</a>
+ <a class="but_an" href="https://www.j8kk.com/down.html" target="_blank">补丁下载</a>
+ <a class="but_an" href="https://www.j8kk.com/cz.html" target="_blank">元宝充值</a>
+ <a class="but_an" href="https://www.j8kk.com/down.html" target="_blank">补丁下载</a>
+ <a class="but_an" href="https://www.j8kk.com/cz.html" target="_blank">元宝充值</a>
+ <a class="but_an" href="https://www.j8kk.com/down.html" target="_blank">补丁下载</a>
+ <a class="but_an" href="https://www.j8kk.com/cz.html" target="_blank">元宝充值</a>
 
 </div>
   
@@ -323,7 +324,7 @@
 		<h6>全新独家版本<span>长久稳定</span></h6>
 		<div class="code">
 			<p>QQ群二维码</p>
-			<img src="./images/qun.jpg" height="147" width="147" alt="">
+			<img src="./images/qqqun.png" height="147" width="147" alt="">
 		</div>
 		<p>
 			风云客服：2991993638
@@ -335,11 +336,16 @@
 			玩家①群：20209933
 		</p>
 
-		<a href="http://www.zqxtjx.com/down.html" target="_blank" class="kefu">登录器下载</a>
-		<a href="http://www.zqxtjx.com/cz.html" class="kefu" target="_blank">在线充值</a>
+		<a href="https://www.j8kk.com/down.html" target="_blank" class="kefu">登录器下载</a>
+		<a href="https://www.j8kk.com/cz.html" class="kefu" target="_blank">在线充值</a>
 	</div>
 
 
+<audio id="music1" src="./images/bgsound.mp3" controls="controls" autoplay="autoplay" preload hidden></audio>
+
+<div class="kv-music">
+<a href="javascript:bf();"><img id="btnPlay" class="btnPlay" src="./images/music.png" alt="暂停音乐" /></a>
+</div>
 
 <script>
 function doAct(s){
@@ -353,17 +359,25 @@ s.className = c.replace(' ', '');
         t.className = t.className + ' close';
     }
 }
+var audio = document.getElementById('music1');
+function bf() {
+	if(audio != null) {
+		if(audio.paused) {
+			audio.play(); //audio.play();// 这个就是播放
+			$("#btnPlay").addClass("active")
+		} else {
+			audio.pause(); // 这个就是暂停
+			$("#btnPlay").removeClass("active")
+		}
+	}
+}
+$("#btnPlay").bind("touchstart",bf )
+$("html").one('touchstart',function(){
+	audio.play();
+})
 </script>
 
-<div class="kv-music">
-<object width="100%" height="100%" codebase="/download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
-                    <param value="images/sound.swf" name="movie">
-                    <param value="transparent" name="wmode">
-                    <param value="true" name="loop">
-                    <param value="high" name="quality">
-                    <embed width="100%" height="100%" pluginspage="/www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" swliveconnect="FALSE" quality="high" wmode="transparent" loop="true" src="images/sound.swf"></embed>
-         </object>
-</div>
+
 
 <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript" src="./images/main.js" charset="utf-8"></script>
